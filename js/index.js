@@ -185,3 +185,14 @@ document.ondblclick=function(){
   location.reload();
   //
 }
+
+  //重置棋盘，并清除localStorage
+  var reset = document.querySelector('.chongzhi');
+  reset.onclick = function(){
+    localStorage.clear();
+    ctx.clearRect(0,0,600,600);
+    list = {};
+    key = true;
+    stop.style.display = 'none';
+  }
+}
