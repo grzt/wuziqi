@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding:0;
     overflow: hidden;
+    list-style: none;
+    border: none;
 }
 .huiqi{
     width: 60px;
@@ -10,19 +12,23 @@ body{
     font-size: 20px;
     position: absolute;
     left:730px;
-    top:700px;
+    top:670px;
     opacity: 0.8;
+    border: 3px solid #ee9a49;
+    
     background-image:url(../image/bg.jpg);
 }
 .chongzhi{
     width: 60px;
     height: 30px;
     color:#000;
+    border: 3px solid #ee9a49;
+    
     font-size: 20px;
     position: absolute;
     left:800px;
     opacity: 0.8;
-    top:700px;
+    top:670px;
     background-image:url(../image/bg.jpg);
 }
 #canvas{
@@ -32,18 +38,18 @@ body{
 	top:43%;
 	margin-left:-300px; 
 	margin-top:-300px; 
-	border:1px solid #000;
+	border:1px solid #ee9a49;
     opacity: 0.7;
-    background-image:url(../image/bg.jpg);
+    background-image:url(../image/88.jpg);
 }
 #canvas1{
     display: block;
     position: absolute;
     left:50%;
     top:43%;
-    margin-left:-300px; 
-    margin-top:-300px; 
-    border:1px solid #000;
+    margin-left:-302px; 
+    margin-top:-304px; 
+    border:3px solid #8b5a2b;
 }
 .box{
     width: 100%;
