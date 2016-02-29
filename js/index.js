@@ -195,4 +195,3 @@ document.ondblclick=function(){
     key = true;
     stop.style.display = 'none';
   }
-}
