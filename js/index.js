@@ -6,7 +6,7 @@ var begin = function(){
   var y = 20.5;
     for(var i=0;i<15;i++){
     var li = ctx.createLinearGradient(0,0,560,0);
-    li.addColorStop(0.3,'#ff6700');
+    li.addColorStop(0.3,'#000');
     li.addColorStop(1,'black');
      // ctx.lineWidth = 6;
         // ctx.lineCap = 'round';
@@ -21,7 +21,7 @@ var begin = function(){
     for(var i=0;i<15;i++){
     var li = ctx.createLinearGradient(0,0,560,0);
     li.addColorStop(0.3,'#000');
-    li.addColorStop(1,'#ff6700');
+    li.addColorStop(1,'#000');
     ctx.strokeStyle = li;
     ctx.beginPath();
     ctx.moveTo(x+i*40,20.5);
